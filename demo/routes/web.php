@@ -26,3 +26,7 @@ Route::get('/carros', [App\Http\Controllers\CarroController::class, 'index'])->n
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
