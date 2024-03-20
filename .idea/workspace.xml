@@ -4,28 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90cfaddc-a625-44e4-ba9c-297fd4ad6202" name="Changes" comment="att">
-      <change afterPath="$PROJECT_DIR$/demo/app/Http/Controllers/AuthController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/app/Repositories/AbstractRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/app/Repositories/CarroRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/app/Repositories/ClienteRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/app/Repositories/LocacaoRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
+    <list default="true" id="90cfaddc-a625-44e4-ba9c-297fd4ad6202" name="Changes" comment="Atualizações">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/app/Http/Controllers/CarroController.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/app/Http/Controllers/CarroController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/app/Http/Controllers/ClienteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/app/Http/Controllers/ClienteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/app/Http/Controllers/LocacaoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/app/Http/Controllers/LocacaoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/app/Models/Carro.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/app/Models/Carro.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/app/Models/Cliente.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/app/Models/Cliente.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/app/Models/Locacao.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/app/Models/Locacao.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/app/Repositories/MarcaRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/app/Repositories/MarcaRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/app/Repositories/ModeloRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/app/Repositories/ModeloRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/demo/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,25 +159,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/emily/Documentos/projetos/app-locadora-carros/demo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/emily/Documentos/projetos/app-locadora-carros/demo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/demo" />
@@ -252,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710541864738</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Atualizações">
+      <option name="closed" value="true" />
+      <created>1710904653740</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710904653740</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +251,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="att" />
-    <option name="LAST_COMMIT_MESSAGE" value="att" />
+    <MESSAGE value="Atualizações" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualizações" />
   </component>
 </project>
