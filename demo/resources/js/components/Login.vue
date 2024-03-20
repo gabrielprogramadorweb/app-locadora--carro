@@ -59,6 +59,7 @@
 
 <script>
 export default {
+
     props: ['csrf_token'], //data (semelhante)
     data() {
         return {
