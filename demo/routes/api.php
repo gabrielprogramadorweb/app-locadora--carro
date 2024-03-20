@@ -8,27 +8,27 @@ use Illuminate\Support\Facades\Route;
 | API Routes
 |--------------------------------------------------------------------------
 |
-| Aqui é onde você pode registrar as rotas da API para sua aplicação. Estas
-| rotas são carregadas pelo RouteServiceProvider e todas serão atribuídas ao
-| grupo de middleware "api". Faça algo incrível!
+| Here is where you can register API routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| is assigned the "api" middleware group. Enjoy building your API!
 |
 */
 
-// Rota protegida por autenticação Sanctum para recuperar informações do usuário
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
-//Route::middleware('auth:api')->get('/user', function (Request $request) {
-//   return $request->user();});
 
-// Rotas API usando apiResource para manter a consistência e facilitar o desenvolvimento
-Route::apiResource('cliente', 'App\Http\Controllers\ClienteController');
-Route::apiResource('carro', 'App\Http\Controllers\CarroController');
-Route::apiResource('locacao', 'App\Http\Controllers\LocacaoController');
-Route::apiResource('marca', 'App\Http\Controllers\MarcaController');
-Route::apiResource('modelo', 'App\Http\Controllers\ModeloController');
+//Route::resource('cliente', 'App\Http\Controllers\ClienteController');
+Route::prefix('v1')->middleware('jwt.auth')->group(function() {
+    Route::post('me', 'App\Http\Controllers\AuthController@me');
+    Route::post('logout', 'App\Http\Controllers\AuthController@logout');
+    Route::post('refresh', 'App\Http\Controllers\AuthController@refresh');
+    Route::apiResource('cliente', 'App\Http\Controllers\ClienteController');
+    Route::apiResource('carro', 'App\Http\Controllers\CarroController');
+    Route::apiResource('locacao', 'App\Http\Controllers\LocacaoController');
+    Route::apiResource('marca', 'App\Http\Controllers\MarcaController');
+    Route::apiResource('modelo', 'App\Http\Controllers\ModeloController');
+});
 
 Route::post('login', 'App\Http\Controllers\AuthController@login');
-Route::post('logout', 'App\Http\Controllers\AuthController@logout');
-Route::post('refresh', 'App\Http\Controllers\AuthController@refresh');
-Route::post('me', 'App\Http\Controllers\AuthController@me');
+
