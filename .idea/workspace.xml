@@ -5,68 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90cfaddc-a625-44e4-ba9c-297fd4ad6202" name="Changes" comment="Atualizações">
-      <change afterPath="$PROJECT_DIR$/demo/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/resources/js/components/Card.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/public/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/resources/js/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/demo/resources/js/components/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/resources/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/resources/js/components/Marcas.vue" beforeDir="false" afterPath="$PROJECT_DIR$/demo/resources/js/components/Marcas.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/vite.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/webpack.mix.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/parser/lib/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/parser/lib/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/parser/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@esbuild/linux-x64/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@esbuild/linux-x64/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vue/compiler-core/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vue/compiler-core/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vue/compiler-dom/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vue/compiler-dom/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vue/compiler-sfc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vue/compiler-sfc/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vue/compiler-ssr/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vue/compiler-ssr/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vue/reactivity/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vue/reactivity/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vue/runtime-core/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vue/runtime-core/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vue/runtime-dom/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vue/runtime-dom/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vue/server-renderer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vue/server-renderer/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vue/shared/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vue/shared/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/dist/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/dist/axios.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/dist/axios.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/dist/axios.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/dist/axios.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/dist/axios.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/dist/axios.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/dist/axios.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/dist/browser/axios.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/dist/browser/axios.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/dist/browser/axios.cjs.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/dist/browser/axios.cjs.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/dist/esm/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/dist/esm/axios.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/dist/esm/axios.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/dist/esm/axios.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/dist/esm/axios.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/dist/esm/axios.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/dist/esm/axios.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/dist/esm/axios.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/dist/node/axios.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/dist/node/axios.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/dist/node/axios.cjs.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/dist/node/axios.cjs.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/adapters/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/adapters/http.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/core/mergeConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/core/mergeConfig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/env/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/env/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/binary-extensions/binary-extensions.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/binary-extensions/binary-extensions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/binary-extensions/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/binary-extensions/license" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/binary-extensions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/binary-extensions/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/binary-extensions/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/binary-extensions/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/esbuild/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/esbuild/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/magic-string/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/magic-string/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/map-generator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/map-generator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/postcss/lib/processor.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/processor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/postcss/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rollup/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rollup/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sass/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sass/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass/sass.dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sass/sass.dart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass/types/importer.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sass/types/importer.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Vue Composition API Component" />
         <option value="JavaScript File" />
+        <option value="Vue Composition API Component" />
       </list>
     </option>
   </component>
@@ -308,7 +250,7 @@
       <workItem from="1711028738869" duration="941000" />
       <workItem from="1711030895478" duration="1522000" />
       <workItem from="1711032977753" duration="937000" />
-      <workItem from="1711038002876" duration="5749000" />
+      <workItem from="1711038002876" duration="6609000" />
     </task>
     <task id="LOCAL-00001" summary="att">
       <option name="closed" value="true" />
