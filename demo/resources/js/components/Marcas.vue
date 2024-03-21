@@ -6,7 +6,7 @@
 
                 <!-- início do card de busca -->
                 <div class="card mb-3">
-                    <div class="card-header">Busca de marcas</div>
+                    <div class="card-header">Busca de marcasss</div>
 
                     <div class="card-body">
                         <div class="form-row">
@@ -78,5 +78,10 @@
 </template>
 
 <script>
+export default {
+    mounted() {
+        console.log('Component mounted.')
+    }
+}
 
 </script>

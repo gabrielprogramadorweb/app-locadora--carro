@@ -16,8 +16,12 @@
 
 <script>
 export default {
-    mounted() {
-        console.log('Component mounted.')
-    }
+    name: 'home-component'
 }
 </script>
+
+<style scoped>
+.home h1 {
+    color: #3490dc;
+}
+</style>
