@@ -4,7 +4,7 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-                    <div class="card-header">Login (Componente Vue)</div>
+                    <div class="card-header">Login (Componente Vueeee)</div>
                     <div class="card-body">
                         <form method="POST" action="" @submit.prevent="login($event)">
                             <input type="hidden" name="_token" :value="csrf_token">
@@ -59,7 +59,6 @@
 
 <script>
 export default {
-
     props: ['csrf_token'], //data (semelhante)
     data() {
         return {
@@ -70,7 +69,7 @@ export default {
     methods: {
         login(e) {
 
-            let url = 'http://localhost:8000/api/login'
+            let url = 'http://localhost:8080/api/login'
             let configuracao = {
                 method: 'post',
                 body: new URLSearchParams({
@@ -79,12 +78,19 @@ export default {
                 })
             }
 
+
+
             fetch(url, configuracao)
                 .then(response => response.json())
                 .then(data => {
                     if(data.token) {
                         document.cookie = 'token='+data.token+';SameSite=Lax'
                     }
+                    if(data.token) {
+                        localStorage.setItem('token', data.token);
+                        console.log(data.token)
+                    }
+
                     //dar sequência no envio do form de autenticação por sessão
                     e.target.submit()
                 })

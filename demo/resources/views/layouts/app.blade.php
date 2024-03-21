@@ -70,7 +70,7 @@
                         @endif
                     @else
                         <li class="nav-item dropdown">
-                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                 {{ Auth::user()->name }}
                             </a>
 
@@ -91,7 +91,14 @@
             </div>
         </div>
     </nav>
-
+    @auth
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{{route('home')}}">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">{{Route::currentRouteName()}}</li>
+            </ol>
+        </nav>
+    @endauth
     <main class="py-4">
 
         @yield('content')
