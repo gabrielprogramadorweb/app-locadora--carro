@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90cfaddc-a625-44e4-ba9c-297fd4ad6202" name="Changes" comment="Atualizações">
-      <change afterPath="$PROJECT_DIR$/demo/resources/js/components/Alert.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/resources/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/resources/js/components/Marcas.vue" beforeDir="false" afterPath="$PROJECT_DIR$/demo/resources/js/components/Marcas.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/resources/js/components/Modal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/demo/resources/js/components/Modal.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/resources/js/components/Table.vue" beforeDir="false" afterPath="$PROJECT_DIR$/demo/resources/js/components/Table.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +173,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "tarefa-vue",
     "last_opened_file_path": "/media/emily/268e9c85-a4c2-41a9-a6fd-9c7a15b924997/PROJETOS AULAS/app-locadora-carros/demo/resources/js/components",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -254,7 +250,7 @@
       <workItem from="1711030895478" duration="1522000" />
       <workItem from="1711032977753" duration="937000" />
       <workItem from="1711038002876" duration="19725000" />
-      <workItem from="1711067402053" duration="9481000" />
+      <workItem from="1711067402053" duration="13458000" />
     </task>
     <task id="LOCAL-00001" summary="att">
       <option name="closed" value="true" />
