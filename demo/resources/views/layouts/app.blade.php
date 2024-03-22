@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Locadora Carros') }}</title>
+    <title>Locadora de Carros</title>
 
     <!-- Scripts -->
     <!-- Fonts -->

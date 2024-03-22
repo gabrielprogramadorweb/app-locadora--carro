@@ -6,6 +6,15 @@
 
 import './bootstrap';
 import { createApp } from 'vue';
+import ExampleComponent from './components/ExampleComponent.vue';
+import LoginComponent from './components/Login.vue';
+import HomeComponent from './components/Home.vue';
+import MarcasComponent from './components/Marcas.vue';
+import InputContainerComponent from './components/InputContainer.vue';
+import TableComponent from './components/Table.vue';
+import CardComponent from './components/Card.vue';
+import ModalComponent from './components/Modal.vue';
+import AlertComponent from './components/Alert.vue';
 
 /**
  * Next, we will create a fresh Vue application instance. You may then begin
@@ -15,29 +24,17 @@ import { createApp } from 'vue';
 
 const app = createApp({});
 
-import ExampleComponent from './components/ExampleComponent.vue';
+
 app.component('example-component', ExampleComponent);
-
-import LoginComponent from './components/Login.vue';
 app.component('login-component', LoginComponent);
-
-import HomeComponent from './components/Home.vue';
 app.component('home-component', HomeComponent);
-
-import MarcasComponent from './components/Marcas.vue';
 app.component('marcas-component', MarcasComponent);
-
-import InputContainerComponent from './components/InputContainer.vue';
 app.component('input-container-component', InputContainerComponent);
-
-import TableComponent from './components/Table.vue';
 app.component('table-component', TableComponent);
-
-import CardComponent from './components/Card.vue';
 app.component('card-component', CardComponent);
-
-import ModalComponent from './components/Modal.vue';
 app.component('modal-component', ModalComponent);
+app.component('alert-component', AlertComponent);
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
