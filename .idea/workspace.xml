@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90cfaddc-a625-44e4-ba9c-297fd4ad6202" name="Changes" comment="Atualizações">
-      <change afterPath="$PROJECT_DIR$/demo/resources/js/components/Modal.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/demo/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/resources/js/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/demo/resources/js/components/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/resources/js/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/demo/resources/js/components/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/resources/js/components/Marcas.vue" beforeDir="false" afterPath="$PROJECT_DIR$/demo/resources/js/components/Marcas.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/resources/js/components/Card.vue" beforeDir="false" afterPath="$PROJECT_DIR$/demo/resources/js/components/Card.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +249,7 @@
       <workItem from="1711028738869" duration="941000" />
       <workItem from="1711030895478" duration="1522000" />
       <workItem from="1711032977753" duration="937000" />
-      <workItem from="1711038002876" duration="18613000" />
+      <workItem from="1711038002876" duration="19645000" />
     </task>
     <task id="LOCAL-00001" summary="att">
       <option name="closed" value="true" />
